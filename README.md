@@ -2,7 +2,7 @@
 
 ![](./open-tweet-in-tweetbot.gif)
 
-This is a simple LaunchBar action that will take a URL to a specific tweet, such as <https://twitter.com/eirkeirkeirk/status/726107666997608448>, and open that tweet in [Tweetbot for Mac.](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12&at=10lpjW)
+This is a simple LaunchBar action that will take a URL to a specific tweet, such as <https://twitter.com/eirkeirkeirk/status/727207820827860993>, and open that tweet in [Tweetbot for Mac.](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12&at=10lpjW)
 
 I wrote a [blog post about this](http://blog.erikphansen.com/open-tweet-links-in-tweetbot-with-launchbar/) with a little more info and background.
 

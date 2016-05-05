@@ -17,3 +17,9 @@ Maybe because you hate the Twitter website as much as I do. If you're like me, y
 I wrote a [blog post about](http://blog.erikphansen.com/open-tweet-links-in-tweetbot-with-launchbar/) the genesis of this action. It also serves as a *very* basic intro to making LaunchBar actions.
 
 This is my first attempt at creating a custom LaunchBar action, so please point out all of the things that are sub-optimal!
+
+## A new discovery
+
+![](./lb-action-editor.png)
+
+If you have this Action installed, you can just send a tweet URL directly to Tweetbot itself and it will open. The magic is in the `Runtime Behavior > Associated Application` field. Because it's set to `com.tapbots.TweetbotMac`, LaunchBar will pass the tweet URL on to this Action if you send the URL directly to Tweetbot. 🔥🔥🔥

@@ -55,5 +55,7 @@
 			<string>default.js</string>
 		</dict>
 	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Enter Tweet URL</string>
 </dict>
 </plist>

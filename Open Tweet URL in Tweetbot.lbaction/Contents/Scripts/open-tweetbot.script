@@ -1,0 +1,6 @@
+if application "Tweetbot" is not running then
+	tell application "Tweetbot" to launch
+	return false
+else
+	return true
+end if

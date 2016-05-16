@@ -9,7 +9,7 @@
 	<key>CFBundleName</key>
 	<string>Open Tweet URL in Tweetbot</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>LBArgument</key>
 	<string>Valid tweet URL: https://twitter.com/&lt;username&gt;/status/&lt;tweet_id&gt;</string>
 	<key>LBAssociatedApplication</key>

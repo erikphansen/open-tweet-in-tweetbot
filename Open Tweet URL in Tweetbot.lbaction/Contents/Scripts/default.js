@@ -12,7 +12,7 @@ function run(argument) {
     // replace the `https://www.twitter.com/` with `tweetbot://`
     argument = argument.replace(regex, "tweetbot://")
     // now just tell LaunchBar to open the tweetbot URL
-    var tweetbotIsOpen = LaunchBar.executeAppleScriptFile("open-tweetbot.scpt")
+    var tweetbotIsOpen = LaunchBar.executeAppleScriptFile("open-tweetbot.script")
     LaunchBar.openURL(argument);
   } else {
     LaunchBar.alert('It appears that\n`' + argument + '`\nis not a valid Twitter URL')

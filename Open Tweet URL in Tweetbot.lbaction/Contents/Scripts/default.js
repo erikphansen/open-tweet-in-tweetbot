@@ -7,14 +7,18 @@ function run(argument) {
   }
 
   // make sure we passed in a valid Twitter URL
-  var regex = /^https?:\/\/(www.)?twitter.com\//
+  var regex = /^https?:\/\/(www.)?twitter.com\//;
   if (argument.match(regex) != null && argument.match(regex).index === 0) {
     // replace the `https://www.twitter.com/` with `tweetbot://`
-    argument = argument.replace(regex, "tweetbot://")
+    argument = argument.replace(regex, 'tweetbot://');
     // now just tell LaunchBar to open the tweetbot URL
-    var tweetbotIsOpen = LaunchBar.executeAppleScriptFile("open-tweetbot.script")
+    var tweetbotIsOpen = LaunchBar.executeAppleScriptFile(
+      'open-tweetbot.script',
+    );
     LaunchBar.openURL(argument);
   } else {
-    LaunchBar.alert('It appears that\n`' + argument + '`\nis not a valid Twitter URL')
+    LaunchBar.alert(
+      'It appears that\n`' + argument + '`\nis not a valid Twitter URL',
+    );
   }
 }

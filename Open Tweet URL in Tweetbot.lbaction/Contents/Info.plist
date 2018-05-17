@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>com.tapbots.TweetbotMac</string>
+	<string>com.tapbots.Tweetbot3Mac</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.erikphansen.LaunchBar.action.OpenTweetURLInTweetbot</string>
 	<key>CFBundleName</key>
-	<string>Open Tweet URL in Tweetbot</string>
+	<string>Open Tweet URL in Tweetbot 3</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.1.0</string>
 	<key>LBArgument</key>
 	<string>Valid tweet URL: https://twitter.com/&lt;username&gt;/status/&lt;tweet_id&gt;</string>
 	<key>LBAssociatedApplication</key>
-	<string>com.tapbots.TweetbotMac</string>
+	<string>com.tapbots.Tweetbot3Mac</string>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBArgument</key>
@@ -23,22 +23,22 @@
 		<key>LBEmail</key>
 		<string>eph@erikphansen.com</string>
 		<key>LBRequirements</key>
-		<string>Tweetbot for Mac</string>
+		<string>Tweetbot 3 for Mac</string>
 		<key>LBResult</key>
-		<string>Opens the specific tweet in Tweetbot for Mac</string>
+		<string>Opens the specific tweet in Tweetbot 3 for Mac</string>
 		<key>LBSummary</key>
-		<string>Takes a link to a specific tweet on twitter.com and opens the tweet in Tweetbot</string>
+		<string>Takes a link to a specific tweet on twitter.com and opens the tweet in Tweetbot 3</string>
 		<key>LBTwitter</key>
 		<string>@eirkeirkeirk</string>
 		<key>LBWebsiteURL</key>
 		<string>blog.erikphansen.com</string>
 	</dict>
 	<key>LBRequiredApplication</key>
-	<string>com.tapbots.TweetbotMac</string>
+	<string>com.tapbots.Tweetbot3Mac</string>
 	<key>LBRequirements</key>
-	<string>Tweetbot for Mac</string>
+	<string>Tweetbot 3 for Mac</string>
 	<key>LBResult</key>
-	<string>Opens the specific tweet in Tweetbot for Mac</string>
+	<string>Opens the specific tweet in Tweetbot 3 for Mac</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
